@@ -1,0 +1,9 @@
+# Railway: create a service from this repo, set **Root Directory** to `arnonacut`,
+# enable Dockerfile build, and bind `PORT` (Railway injects it automatically).
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+healthcheckPath = "/"
+restartPolicyType = "ON_FAILURE"

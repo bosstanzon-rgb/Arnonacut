@@ -1,0 +1,110 @@
+{
+  "en": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "Who operates this service",
+        "body": "ArnonaCut is an independent educational web application (the “Service”). It is not a government agency, law firm, or accounting firm. The operator may be an individual or entity identified on the site or in correspondence with you. Contact details published on the site govern how you may reach the operator."
+      },
+      {
+        "heading": "Information we process",
+        "body": "The Service may process: (a) technical data such as browser type, approximate timestamps, and basic server logs needed to operate the site; (b) inputs you voluntarily provide in the guided questionnaire (for example municipality, household size, income range, apartment size, and selected statuses); (c) identifiers created when you use the quiz or purchase flow (such as a server-side session or order identifier); (d) if you complete a purchase, payment-related metadata required to unlock downloads (for example order status and an access token). We do not intentionally collect government identity numbers, scans of official documents, or other highly sensitive uploads through this application, and the Service is not designed for document uploads."
+      },
+      {
+        "heading": "Local storage on your device",
+        "body": "To improve continuity, the Service may store progress, language preference, and access tokens in your browser’s local storage. That data remains on your device unless you clear it or it is transmitted to our servers as part of a described feature (for example saving an order). You can delete local data using your browser settings."
+      },
+      {
+        "heading": "How we use information",
+        "body": "We use information to: provide estimates and checklists; personalize downloadable materials where applicable; secure the Service; debug and improve functionality; comply with law; and communicate with you if you contact us."
+      },
+      {
+        "heading": "Legal basis and consent",
+        "body": "Where required by law, processing is based on your consent (for example continuing to use optional features) and/or legitimate interests in operating a low-risk educational tool. You may withdraw consent by discontinuing use and clearing local storage, subject to legal retention obligations."
+      },
+      {
+        "heading": "Sharing with third parties",
+        "body": "We do not sell your personal information. We may use infrastructure providers (hosting, database, e-mail) who process data solely on our instructions. If you integrate a third-party payment provider in production, that provider will process payment data under its own terms; this policy should be updated accordingly."
+      },
+      {
+        "heading": "International transfers",
+        "body": "Servers may be located outside your country. Where required, appropriate safeguards (such as standard contractual clauses) should be implemented by the operator in production deployments."
+      },
+      {
+        "heading": "Retention",
+        "body": "Server logs and operational records may be retained for a limited period consistent with security and legal obligations. Quiz sessions and orders may be retained as needed to provide access to purchased materials and for accounting. Local storage retention is controlled by you."
+      },
+      {
+        "heading": "Your rights",
+        "body": "Depending on applicable law, you may have rights to access, rectify, erase, restrict, or object to certain processing, and to lodge a complaint with a supervisory authority. Because much data is stored locally, erasure on our servers may be limited to what we actually hold. Contact the operator to exercise rights."
+      },
+      {
+        "heading": "Children",
+        "body": "The Service is not directed to children under 13 (or the age required in your jurisdiction), and we do not knowingly collect their personal data."
+      },
+      {
+        "heading": "Changes",
+        "body": "We may update this Privacy Policy. The “Last updated” date will change. Continued use after changes constitutes notice where permitted by law."
+      },
+      {
+        "heading": "Contact",
+        "body": "For privacy inquiries, contact the operator by e-mail at bosstanzon@gmail.com."
+      }
+    ]
+  },
+  "he": {
+    "title": "מדיניות פרטיות",
+    "updated": "עודכן לאחרונה: מאי 2026",
+    "sections": [
+      {
+        "heading": "מי מפעיל את השירות",
+        "body": "ArnonaCut הוא יישום אינטרנטי עצמאי לימודי („השירות”). אין מדובר בגוף ממשלתי, במשרד עורכי דין או במשרד רואה חשבון. המפעיל עשוי להיות יחיד או תאגיד כפי שמצוין באתר או בהתכתבות. פרטי ההתקשרות המפורסמים באתר קובעים כיצד לפנות למפעיל."
+      },
+      {
+        "heading": "איזה מידע מעבדים",
+        "body": "השירות עשוי לעבד: (א) נתונים טכניים כגון סוג דפדפן, חותמות זמן משוערות ויומני שרת בסיסיים הנדרשים להפעלת האתר; (ב) קלט שאתם מספקים באופן מרצון בשאלון (למשל רשות, גודל משק בית, טווח הכנסה, שטח דירה וסטטוסים נבחרים); (ג) מזהים שנוצרים בשימוש בשאלון או ברכישה (כגון סשן בשרת או מזהה הזמנה); (ד) אם השלמתם רכישה — מטא־נתונים הקשורים לתשלום הנדרשים לפתיחת הורדות (למשל סטטוס הזמנה ואסימון גישה). אין איסוף מכוון של מספרי זהות ממשלתיים, סריקות של מסמכים רשמיים או העלאות רגישות אחרות דרך יישום זה, והשירות אינו מיועד להעלאת מסמכים."
+      },
+      {
+        "heading": "אחסון מקומי במכשיר",
+        "body": "לשיפור הרציפות, השירות עשוי לאחסן התקדמות, העדפת שפה ואסימוני גישה באחסון המקומי של הדפדפן. הנתונים נשארים במכשיר אלא אם מחקתם אותם או שהם נשלחים לשרתים כחלק מתכונה מתוארת (למשל שמירת הזמנה). ניתן למחוק נתונים מקומיים בהגדרות הדפדפן."
+      },
+      {
+        "heading": "כיצד משתמשים במידע",
+        "body": "משתמשים במידע כדי: לספק הערכות וצ'ק־ליסטים; להתאים חומרים להורדה במידת הצורך; לאבטח את השירות; לאבחן ולשפר פונקציונליות; לעמוד בדין; וליצור עמכם קשר אם פניתם אלינו."
+      },
+      {
+        "heading": "בסיס משפטי והסכמה",
+        "body": "כאשר נדרש על פי דין, העיבוד מבוסס על הסכמתכם (למשל המשך שימוש בתכונות אופציונליות) ו/או על עניין לגיטימי בהפעלת כלי לימודי בסיכון נמוך. ניתן למשוך הסכמה בהפסקת שימוש ובמחיקת אחסון מקומי, בכפוף לחובות שמירה חוקיות."
+      },
+      {
+        "heading": "שיתוף עם צדדים שלישיים",
+        "body": "איננו מוכרים מידע אישי. עשויים לשמש ספקי תשתית (אירוח, מסד נתונים, דוא״ל) המעבדים נתונים בהתאם להנחיות בלבד. אם תשלבו ספק תשלומים בייצור, הוא יעבד נתוני תשלום לפי תנאיו; יש לעדכן מדיניות זו בהתאם."
+      },
+      {
+        "heading": "העברות בינלאומיות",
+        "body": "שרתים עשויים להימצא מחוץ למדינתכם. כאשר נדרש, יש להטמיע בייצור הסדרים מתאימים (למשל סעיפים חוזיים תקניים)."
+      },
+      {
+        "heading": "שמירה",
+        "body": "יומני שרת ורשומות תפעול עשויים להישמר לתקופה מוגבלת בהתאם לאבטחה ולחובות משפטיות. סשן שאלון והזמנות עשויים להישמר כנדרש לספק גישה לחומרים ברכישה ולמטרות חשבונאות. שמירה מקומית נשלטת על ידכם."
+      },
+      {
+        "heading": "זכויותיכם",
+        "body": "בהתאם לדין החל, עשויות להיות לכם זכויות גישה, תיקון, מחיקה, הגבלה או התנגדות לעיבוד מסוים, וזכות להגיש תלונה לרשות פיקוח. מכיוון שחלק מהנתונים מקומיים, מחיקה בשרתים עשויה להיות מוגבלת למה שבאמת נשמר. פנו למפעיל למימוש זכויות."
+      },
+      {
+        "heading": "ילדים",
+        "body": "השירות אינו מיועד לילדים מתחת לגיל 13 (או הגיל הנדרש במדינתכם), ואיננו אוספים ביודעין מידע אישי עליהם."
+      },
+      {
+        "heading": "שינויים",
+        "body": "עשויים לעדכן מדיניות פרטיות זו. תאריך „עודכן לאחרונה” ישתנה. המשך שימוש לאחר שינויים מהווה הודעה ככל שהדין מתיר."
+      },
+      {
+        "heading": "יצירת קשר",
+        "body": "לפניות פרטיות, ניתן לפנות למפעיל בדוא״ל: bosstanzon@gmail.com"
+      }
+    ]
+  }
+}

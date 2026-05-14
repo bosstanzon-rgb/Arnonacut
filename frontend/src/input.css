@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased text-slate-800;
+  }
+  body {
+    @apply font-sans;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "salt" 0;
+  }
+  html[lang="he"] body {
+    font-family:
+      "Assistant",
+      "Rubik",
+      "Inter",
+      system-ui,
+      -apple-system,
+      "Segoe UI",
+      Roboto,
+      "Helvetica Neue",
+      Arial,
+      sans-serif;
+  }
+}
+
+@layer utilities {
+  .stagger-1 {
+    animation-delay: 0.08s;
+  }
+  .stagger-2 {
+    animation-delay: 0.16s;
+  }
+  .stagger-3 {
+    animation-delay: 0.24s;
+  }
+  .stagger-4 {
+    animation-delay: 0.32s;
+  }
+  .stagger-5 {
+    animation-delay: 0.4s;
+  }
+  .opacity-0-start {
+    opacity: 0;
+  }
+  .animate-fill-mode-forwards {
+    animation-fill-mode: forwards;
+  }
+  .mesh-hero {
+    background:
+      radial-gradient(ellipse 90% 70% at 10% -10%, rgba(20, 184, 166, 0.18), transparent 55%),
+      radial-gradient(ellipse 70% 60% at 100% 0%, rgba(0, 56, 184, 0.08), transparent 50%),
+      radial-gradient(ellipse 60% 50% at 50% 100%, rgba(16, 185, 129, 0.12), transparent 45%),
+      linear-gradient(180deg, #f6faf9 0%, #f8fafc 40%, #f0fdfa 100%);
+  }
+  .confetti-piece {
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    border-radius: 2px;
+    will-change: transform, opacity;
+  }
+}

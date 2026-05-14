@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.1",
+  "year": 2026,
+  "currency": "ILS",
+  "disclaimer": "Illustrative planning parameters only. Not legal, tax, or municipal advice. Actual exemptions, reductions, and objection windows depend on each authority's ordinances and your verified facts. Update this file annually with official sources.",
+  "special_status_catalog": [
+    {"code": "olim_chadashim", "label_en": "New immigrants (Olim Chadashim)", "label_he": "עולים חדשים"},
+    {"code": "student", "label_en": "Recognized student household", "label_he": "משק בית סטודנטים מוכר"},
+    {"code": "miluim_reservist", "label_en": "Active / recent reserve service (Miluim)", "label_he": "מילואים פעיל / אחרון"},
+    {"code": "single_parent", "label_en": "Single-parent household", "label_he": "משפחה חד-הורית"},
+    {"code": "disabled", "label_en": "Disability recognised by national/municipal criteria", "label_he": "נכות מוכרת"},
+    {"code": "low_income", "label_en": "Low-income / eligibility under municipal rules", "label_he": "הכנסה נמוכה / זכאות לפי חוקי עירייה"},
+    {"code": "elderly_only", "label_en": "Elderly-only household (pension-age)", "label_he": "משק גיל הזקן"},
+    {"code": "shield_room_benefit", "label_en": "Properties with relevant protected-room / wartime damage (verify locally)", "label_he": "ממד / נזקי מלחמה (לאמת מול הרשות)"}
+  ],
+  "default_deadlines_he": "מועדי ערעור והנחות משתנים מדי שנה. אמתו תאריך סופי באתר העירייה או במכתב רשמי.",
+  "default_deadlines_en": "Appeal and discount deadlines change every year. Verify final dates on the municipality website or in writing.",
+  "cities": {
+    "tel_aviv": {
+      "id": "tel_aviv",
+      "names": {"en": "Tel Aviv-Yafo", "he": "תל אביב-יפו"},
+      "tier": "tier_a",
+      "income_brackets_monthly_nis": [
+        {"up_to": 14000, "base_min_pct": 6.0, "base_max_pct": 14.0, "notes": "Higher illustrative relief band for lower self-reported income in TA market context"},
+        {"up_to": 28000, "base_min_pct": 4.0, "base_max_pct": 11.0, "notes": "Mid band"},
+        {"up_to": 45000, "base_min_pct": 2.5, "base_max_pct": 8.5, "notes": "Upper-mid"},
+        {"up_to": null, "base_min_pct": 1.5, "base_max_pct": 6.0, "notes": "High income — narrow illustrative window"}
+      ],
+      "sqm_factor": {"threshold_sqm": 110, "pct_per_sqm_above": 0.045, "cap_pct_each_side": 4.5},
+      "household_factor": {"pct_per_extra_resident": 0.55, "max_extra_pct_each_side": 3.2},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 3.5, "add_max": 9.0},
+        "student": {"add_min": 1.2, "add_max": 4.0},
+        "miluim_reservist": {"add_min": 0.8, "add_max": 2.5},
+        "single_parent": {"add_min": 1.5, "add_max": 5.0},
+        "disabled": {"add_min": 2.0, "add_max": 6.5},
+        "low_income": {"add_min": 4.0, "add_max": 11.0},
+        "elderly_only": {"add_min": 1.0, "add_max": 3.5},
+        "shield_room_benefit": {"add_min": 0.5, "add_max": 2.0}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "בדרך כלל לאחר מועד קביעת חיוב; אמתו בפרסום הרשות לשנת 2026",
+        "objection_window_open_en": "Typically after annual rate notice; verify on 2026 municipal notice",
+        "suggested_review_by": "2026-01-31",
+        "official_url_hint": "https://www.tel-aviv.gov.il/arnona/"
+      }
+    },
+    "jerusalem": {
+      "id": "jerusalem",
+      "names": {"en": "Jerusalem", "he": "ירושלים"},
+      "tier": "tier_a",
+      "income_brackets_monthly_nis": [
+        {"up_to": 13000, "base_min_pct": 7.0, "base_max_pct": 16.0, "notes": "Illustrative: larger low-income cohort parameters"},
+        {"up_to": 26000, "base_min_pct": 4.5, "base_max_pct": 12.0, "notes": "Mid band"},
+        {"up_to": 42000, "base_min_pct": 3.0, "base_max_pct": 9.0, "notes": null},
+        {"up_to": null, "base_min_pct": 2.0, "base_max_pct": 7.0, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 105, "pct_per_sqm_above": 0.05, "cap_pct_each_side": 5.0},
+      "household_factor": {"pct_per_extra_resident": 0.6, "max_extra_pct_each_side": 3.5},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 4.0, "add_max": 10.0},
+        "student": {"add_min": 1.5, "add_max": 4.5},
+        "miluim_reservist": {"add_min": 1.0, "add_max": 3.0},
+        "single_parent": {"add_min": 2.0, "add_max": 5.5},
+        "disabled": {"add_min": 2.5, "add_max": 7.0},
+        "low_income": {"add_min": 5.0, "add_max": 12.0},
+        "elderly_only": {"add_min": 1.2, "add_max": 4.0},
+        "shield_room_benefit": {"add_min": 0.5, "add_max": 2.2}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "אימות לפי פרסום עיריית ירושלים לשנת 2026",
+        "objection_window_open_en": "Verify on Jerusalem municipality 2026 publications",
+        "suggested_review_by": "2026-01-25",
+        "official_url_hint": "https://www.jerusalem.muni.il/"
+      }
+    },
+    "haifa": {
+      "id": "haifa",
+      "names": {"en": "Haifa", "he": "חיפה"},
+      "tier": "tier_b",
+      "income_brackets_monthly_nis": [
+        {"up_to": 12000, "base_min_pct": 5.5, "base_max_pct": 13.0, "notes": null},
+        {"up_to": 24000, "base_min_pct": 3.5, "base_max_pct": 10.0, "notes": null},
+        {"up_to": 40000, "base_min_pct": 2.2, "base_max_pct": 7.5, "notes": null},
+        {"up_to": null, "base_min_pct": 1.2, "base_max_pct": 5.5, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 100, "pct_per_sqm_above": 0.04, "cap_pct_each_side": 4.0},
+      "household_factor": {"pct_per_extra_resident": 0.5, "max_extra_pct_each_side": 3.0},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 3.0, "add_max": 8.5},
+        "student": {"add_min": 1.0, "add_max": 3.5},
+        "miluim_reservist": {"add_min": 0.7, "add_max": 2.2},
+        "single_parent": {"add_min": 1.4, "add_max": 4.5},
+        "disabled": {"add_min": 1.8, "add_max": 6.0},
+        "low_income": {"add_min": 3.8, "add_max": 10.0},
+        "elderly_only": {"add_min": 0.9, "add_max": 3.2},
+        "shield_room_benefit": {"add_min": 0.4, "add_max": 1.8}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "בדקו הודעת חיוב 2026 והנחיות מחלקת הארנונה בחיפה",
+        "objection_window_open_en": "Check 2026 bill notice and Haifa arnona department guidance",
+        "suggested_review_by": "2026-02-01",
+        "official_url_hint": "https://www.haifa.muni.il/"
+      }
+    },
+    "netanya": {
+      "id": "netanya",
+      "names": {"en": "Netanya", "he": "נתניה"},
+      "tier": "tier_b",
+      "income_brackets_monthly_nis": [
+        {"up_to": 11500, "base_min_pct": 5.0, "base_max_pct": 12.0, "notes": null},
+        {"up_to": 23000, "base_min_pct": 3.2, "base_max_pct": 9.0, "notes": null},
+        {"up_to": 38000, "base_min_pct": 2.0, "base_max_pct": 7.0, "notes": null},
+        {"up_to": null, "base_min_pct": 1.0, "base_max_pct": 5.0, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 95, "pct_per_sqm_above": 0.038, "cap_pct_each_side": 3.8},
+      "household_factor": {"pct_per_extra_resident": 0.48, "max_extra_pct_each_side": 2.8},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 2.8, "add_max": 8.0},
+        "student": {"add_min": 0.9, "add_max": 3.2},
+        "miluim_reservist": {"add_min": 0.6, "add_max": 2.0},
+        "single_parent": {"add_min": 1.3, "add_max": 4.2},
+        "disabled": {"add_min": 1.6, "add_max": 5.5},
+        "low_income": {"add_min": 3.5, "add_max": 9.5},
+        "elderly_only": {"add_min": 0.8, "add_max": 3.0},
+        "shield_room_benefit": {"add_min": 0.4, "add_max": 1.6}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "מועדי ערעור לפי פרסום עיריית נתניה לשנת 2026",
+        "objection_window_open_en": "Per Netanya 2026 published schedule",
+        "suggested_review_by": "2026-02-05",
+        "official_url_hint": "https://www.netanya.muni.il/"
+      }
+    },
+    "rishon_lezion": {
+      "id": "rishon_lezion",
+      "names": {"en": "Rishon LeZion", "he": "ראשון לציון"},
+      "tier": "tier_b",
+      "income_brackets_monthly_nis": [
+        {"up_to": 12500, "base_min_pct": 5.2, "base_max_pct": 12.5, "notes": null},
+        {"up_to": 25000, "base_min_pct": 3.4, "base_max_pct": 9.5, "notes": null},
+        {"up_to": 41000, "base_min_pct": 2.1, "base_max_pct": 7.2, "notes": null},
+        {"up_to": null, "base_min_pct": 1.1, "base_max_pct": 5.4, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 100, "pct_per_sqm_above": 0.04, "cap_pct_each_side": 4.0},
+      "household_factor": {"pct_per_extra_resident": 0.52, "max_extra_pct_each_side": 3.0},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 3.0, "add_max": 8.2},
+        "student": {"add_min": 1.0, "add_max": 3.6},
+        "miluim_reservist": {"add_min": 0.7, "add_max": 2.1},
+        "single_parent": {"add_min": 1.4, "add_max": 4.4},
+        "disabled": {"add_min": 1.9, "add_max": 5.8},
+        "low_income": {"add_min": 3.8, "add_max": 9.8},
+        "elderly_only": {"add_min": 0.85, "add_max": 3.1},
+        "shield_room_benefit": {"add_min": 0.4, "add_max": 1.7}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "בדקו באתר רשות המסים המקומית וברשות ראשון לציון",
+        "objection_window_open_en": "Verify on Rishon LeZion municipal publications 2026",
+        "suggested_review_by": "2026-01-28",
+        "official_url_hint": "https://www.rishonlezion.muni.il/"
+      }
+    },
+    "petah_tikva": {
+      "id": "petah_tikva",
+      "names": {"en": "Petah Tikva", "he": "פתח תקווה"},
+      "tier": "tier_b",
+      "income_brackets_monthly_nis": [
+        {"up_to": 12500, "base_min_pct": 5.0, "base_max_pct": 12.0, "notes": null},
+        {"up_to": 25500, "base_min_pct": 3.3, "base_max_pct": 9.2, "notes": null},
+        {"up_to": 40000, "base_min_pct": 2.0, "base_max_pct": 7.0, "notes": null},
+        {"up_to": null, "base_min_pct": 1.0, "base_max_pct": 5.2, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 98, "pct_per_sqm_above": 0.041, "cap_pct_each_side": 4.0},
+      "household_factor": {"pct_per_extra_resident": 0.5, "max_extra_pct_each_side": 3.0},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 3.0, "add_max": 8.0},
+        "student": {"add_min": 1.0, "add_max": 3.4},
+        "miluim_reservist": {"add_min": 0.65, "add_max": 2.0},
+        "single_parent": {"add_min": 1.35, "add_max": 4.3},
+        "disabled": {"add_min": 1.8, "add_max": 5.6},
+        "low_income": {"add_min": 3.7, "add_max": 9.6},
+        "elderly_only": {"add_min": 0.8, "add_max": 3.0},
+        "shield_room_benefit": {"add_min": 0.4, "add_max": 1.7}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "מועדי הגשה לפי פרסום עיריית פתח תקווה לשנת 2026",
+        "objection_window_open_en": "Per Petah Tikva 2026 schedule",
+        "suggested_review_by": "2026-01-30",
+        "official_url_hint": "https://www.petah-tikva.muni.il/"
+      }
+    },
+    "beersheba": {
+      "id": "beersheba",
+      "names": {"en": "Be'er Sheva", "he": "באר שבע"},
+      "tier": "tier_c",
+      "income_brackets_monthly_nis": [
+        {"up_to": 11000, "base_min_pct": 6.0, "base_max_pct": 14.0, "notes": "Illustrative southern municipality parameters"},
+        {"up_to": 22000, "base_min_pct": 3.8, "base_max_pct": 10.5, "notes": null},
+        {"up_to": 36000, "base_min_pct": 2.3, "base_max_pct": 7.8, "notes": null},
+        {"up_to": null, "base_min_pct": 1.2, "base_max_pct": 5.8, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 95, "pct_per_sqm_above": 0.042, "cap_pct_each_side": 4.2},
+      "household_factor": {"pct_per_extra_resident": 0.55, "max_extra_pct_each_side": 3.3},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 3.5, "add_max": 9.5},
+        "student": {"add_min": 1.2, "add_max": 4.2},
+        "miluim_reservist": {"add_min": 0.9, "add_max": 2.8},
+        "single_parent": {"add_min": 1.6, "add_max": 5.0},
+        "disabled": {"add_min": 2.0, "add_max": 6.2},
+        "low_income": {"add_min": 4.2, "add_max": 11.0},
+        "elderly_only": {"add_min": 1.0, "add_max": 3.6},
+        "shield_room_benefit": {"add_min": 0.5, "add_max": 2.0}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "לפי פרסום עיריית באר שבע להנהלת חיובים 2026",
+        "objection_window_open_en": "Per Be'er Sheva 2026 assessment administration notices",
+        "suggested_review_by": "2026-02-08",
+        "official_url_hint": "https://www.beer-sheva.muni.il/"
+      }
+    },
+    "ashdod": {
+      "id": "ashdod",
+      "names": {"en": "Ashdod", "he": "אשדוד"},
+      "tier": "tier_c",
+      "income_brackets_monthly_nis": [
+        {"up_to": 11800, "base_min_pct": 5.5, "base_max_pct": 13.0, "notes": null},
+        {"up_to": 23500, "base_min_pct": 3.5, "base_max_pct": 9.8, "notes": null},
+        {"up_to": 39000, "base_min_pct": 2.1, "base_max_pct": 7.3, "notes": null},
+        {"up_to": null, "base_min_pct": 1.1, "base_max_pct": 5.5, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 100, "pct_per_sqm_above": 0.039, "cap_pct_each_side": 3.9},
+      "household_factor": {"pct_per_extra_resident": 0.5, "max_extra_pct_each_side": 2.9},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 3.2, "add_max": 8.8},
+        "student": {"add_min": 1.0, "add_max": 3.5},
+        "miluim_reservist": {"add_min": 0.75, "add_max": 2.3},
+        "single_parent": {"add_min": 1.45, "add_max": 4.6},
+        "disabled": {"add_min": 1.85, "add_max": 5.9},
+        "low_income": {"add_min": 3.9, "add_max": 10.2},
+        "elderly_only": {"add_min": 0.85, "add_max": 3.1},
+        "shield_room_benefit": {"add_min": 0.45, "add_max": 1.8}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "בדקו לוח אופייני להודעות חיוב באשדוד לשנת 2026",
+        "objection_window_open_en": "Verify Ashdod 2026 bill notice timelines",
+        "suggested_review_by": "2026-02-03",
+        "official_url_hint": "https://www.ashdod.muni.il/"
+      }
+    },
+    "holon": {
+      "id": "holon",
+      "names": {"en": "Holon", "he": "חולון"},
+      "tier": "tier_b_proxy",
+      "inherits_calc_from": "rishon_lezion",
+      "note": "2026 sample parameters aligned to peer Gush Dan municipality (Holon); replace with official tables when published.",
+      "income_brackets_monthly_nis": [
+        {"up_to": 12500, "base_min_pct": 4.8, "base_max_pct": 12.0, "notes": "Proxy band pending official 2026 table"},
+        {"up_to": 24800, "base_min_pct": 3.1, "base_max_pct": 9.2, "notes": null},
+        {"up_to": 40500, "base_min_pct": 2.0, "base_max_pct": 6.9, "notes": null},
+        {"up_to": null, "base_min_pct": 1.0, "base_max_pct": 5.2, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 98, "pct_per_sqm_above": 0.039, "cap_pct_each_side": 3.9},
+      "household_factor": {"pct_per_extra_resident": 0.5, "max_extra_pct_each_side": 2.9},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 2.9, "add_max": 8.0},
+        "student": {"add_min": 0.95, "add_max": 3.4},
+        "miluim_reservist": {"add_min": 0.65, "add_max": 2.0},
+        "single_parent": {"add_min": 1.3, "add_max": 4.2},
+        "disabled": {"add_min": 1.75, "add_max": 5.5},
+        "low_income": {"add_min": 3.6, "add_max": 9.4},
+        "elderly_only": {"add_min": 0.8, "add_max": 3.0},
+        "shield_room_benefit": {"add_min": 0.4, "add_max": 1.7}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "אמתו מול חטיבת הארנונה בעיריית חולון 2026",
+        "objection_window_open_en": "Verify with Holon arnona division 2026",
+        "suggested_review_by": "2026-01-29",
+        "official_url_hint": "https://www.holon.muni.il/"
+      }
+    },
+    "ramat_gan": {
+      "id": "ramat_gan",
+      "names": {"en": "Ramat Gan", "he": "רמת גן"},
+      "tier": "tier_b_proxy",
+      "inherits_calc_from": "tel_aviv",
+      "note": "2026 sample parameters aligned to peer central corridor municipality (Ramat Gan); replace with official tables when published.",
+      "income_brackets_monthly_nis": [
+        {"up_to": 13800, "base_min_pct": 5.6, "base_max_pct": 13.5, "notes": "Proxy band pending official 2026 table"},
+        {"up_to": 27500, "base_min_pct": 3.7, "base_max_pct": 10.5, "notes": null},
+        {"up_to": 44000, "base_min_pct": 2.4, "base_max_pct": 8.0, "notes": null},
+        {"up_to": null, "base_min_pct": 1.4, "base_max_pct": 5.8, "notes": null}
+      ],
+      "sqm_factor": {"threshold_sqm": 108, "pct_per_sqm_above": 0.043, "cap_pct_each_side": 4.3},
+      "household_factor": {"pct_per_extra_resident": 0.53, "max_extra_pct_each_side": 3.1},
+      "special_status_deltas": {
+        "olim_chadashim": {"add_min": 3.4, "add_max": 8.8},
+        "student": {"add_min": 1.15, "add_max": 3.8},
+        "miluim_reservist": {"add_min": 0.75, "add_max": 2.4},
+        "single_parent": {"add_min": 1.45, "add_max": 4.8},
+        "disabled": {"add_min": 1.95, "add_max": 6.3},
+        "low_income": {"add_min": 3.9, "add_max": 10.5},
+        "elderly_only": {"add_min": 0.95, "add_max": 3.4},
+        "shield_room_benefit": {"add_min": 0.45, "add_max": 1.9}
+      },
+      "deadlines_2026": {
+        "objection_window_open_he": "אמתו מול אתר עיריית רמת גן 2026",
+        "objection_window_open_en": "Verify on Ramat Gan municipality site 2026",
+        "suggested_review_by": "2026-01-31",
+        "official_url_hint": "https://www.ramat-gan.muni.il/"
+      }
+    }
+  }
+}

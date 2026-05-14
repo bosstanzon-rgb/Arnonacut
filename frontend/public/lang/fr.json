@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "skipToContent": "Aller au contenu",
+    "ariaLanguage": "Choisir la langue de l’interface",
+    "footerRights": "ArnonaCut. Sans affiliation à un organisme gouvernemental.",
+    "contact": "Contact"
+  },
+  "errors": {
+    "network": "Connexion au serveur impossible. Vérifiez le réseau et réessayez.",
+    "rateLimit": "Trop de requêtes. Attendez une minute et réessayez."
+  },
+  "brand": {
+    "name": "ArnonaCut",
+    "tagline": "Une préparation sereine et privée pour votre dossier d’arnona."
+  },
+  "flow": {
+    "resumeTitle": "Reprendre où vous vous êtes arrêté(e) ?",
+    "resumeHint": "Vos réponses et résultats sont enregistrés uniquement sur cet appareil.",
+    "resume": "Continuer",
+    "discard": "Recommencer"
+  },
+  "disclaimer": {
+    "banner": "Outil pédagogique uniquement. Pas de conseil juridique ni fiscal, pas d’orientation gouvernementale. Les pourcentages sont des estimations illustratives seulement. Pas de téléversements, pas de soumissions automatiques, aucune garantie d’issue municipale.",
+    "footer": "ArnonaCut fournit des listes de contrôle génériques et des modèles à modifier vous-même. Les résultats dépendent des faits, des preuves et des règles municipales. Seule la municipalité tranche en dernier ressort. Vous êtes entièrement responsable de toute soumission. Consultez un professionnel si nécessaire.",
+    "results": "La fourchette en pourcentage est une estimation illustrative seulement. Ce n’est pas une prédiction de remise, de remboursement ou d’approbation. Rien ici ne constitue un conseil juridique. La municipalité prend la décision finale.",
+    "paywall": "Le paiement débloque uniquement des supports imprimables. Il ne dépose rien pour vous, ne crée pas de relation avocat–client et ne garantit aucune issue municipale.",
+    "success": "Les téléchargements sont des modèles et une liste PDF pour votre relecture et vos modifications uniquement. Vous êtes entièrement responsable de l’exactitude, de l’exhaustivité et des délais avant toute soumission. La municipalité fixe l’issue finale."
+  },
+  "landing": {
+    "badge": "Privé · sans téléversement de documents",
+    "headline": "Voyez si vous pourriez payer moins d’arnona — en une minute",
+    "sub": "Un parcours guidé et posé avec une fourchette illustrative. Pas de téléversement, pas de dépôt automatique — vous gardez la main.",
+    "cta": "Vérifier ma réduction",
+    "trust1Title": "Gratuit et privé",
+    "trust1Sub": "Sans compte. Vos réponses restent sur l’appareil tant que vous ne poursuivez pas.",
+    "trust2Title": "Sans téléversements",
+    "trust2Sub": "Aucune collecte d’avis, pièce d’identité ou relevé bancaire ici.",
+    "trust3Title": "Clair et prudent",
+    "trust3Sub": "Étapes simples et avertissements honnêtes — d’abord un outil pédagogique.",
+    "socialProof": "Plus de 8 400 foyers en Israël ont déjà utilisé cette vérification privée pour voir une fourchette illustrative — sur leur appareil, à leur rythme. (Chiffre motivant uniquement ; pas une statistique officielle.)",
+    "ctaAria": "Démarrer la vérification guidée pour une fourchette illustrative de réduction d’arnona",
+    "compareTitle": "Vérification gratuite vs kit de préparation",
+    "compareSub": "Les mêmes avertissements — le kit ajoute des documents structurés en hébreu à imprimer et à modifier vous-même.",
+    "compareFreeBadge": "Gratuit",
+    "compareFree1": "Questionnaire guidé et fourchette de pourcentage illustrative",
+    "compareFree2": "Privé — les réponses restent sur l’appareil tant que vous ne continuez pas",
+    "compareFree3": "Boutons de partage WhatsApp / Facebook (rien n’est déposé pour vous)",
+    "compareFree4": "Ventilation pédagogique des facteurs de l’estimation",
+    "comparePremiumBadge": "Kit de préparation (paiement unique)",
+    "comparePremium1": "Liste PDF personnalisée en hébreu selon vos saisies",
+    "comparePremium2": "Projet de demande de réduction + lettre officielle (PDF)",
+    "comparePremium3": "Liste de contrôle de dépôt et archive ZIP hors ligne",
+    "comparePremium4": "Garantie 14 jours sur la conformité des livrables (voir paiement)"
+  },
+  "wizard": {
+    "stepOf": "Étape {n} sur {total}",
+    "conversational": {
+      "0": "D’abord, quelle municipalité vous facture — la réponse reste sur cet appareil seulement.",
+      "1": "La taille du ménage est un paramètre fréquent ; un ordre de grandeur suffit ici.",
+      "2": "Les tranches de revenu comptent beaucoup ; indiquez le brut mensuel du ménage en ₪, arrondi si besoin.",
+      "3": "Statuts optionnels — ignorez ce dont vous n’êtes pas sûr(e).",
+      "4": "Dernière étape : la surface est comparée aux seuils locaux (pas une expertise officielle)."
+    },
+    "back": "Retour",
+    "next": "Suivant",
+    "finish": "Voir mon estimation",
+    "submitting": "Calcul…",
+    "city": {
+      "loading": "Chargement des villes…",
+      "errorTitle": "Impossible de charger les villes",
+      "error": "Impossible de charger les villes. Vérifiez la connexion."
+    },
+    "catalogError": "Impossible de charger les options de statut particulier. Vérifiez la connexion.",
+    "validation": {
+      "city": "Veuillez choisir la municipalité.",
+      "household": "Indiquez combien de personnes y résident en permanence.",
+      "income": "Saisissez un revenu mensuel brut valide (NIS).",
+      "sqm": "Saisissez la surface du logement en m²."
+    },
+    "steps": {
+      "0": {
+        "title": "Quelle municipalité envoie votre avis d’arnona ?",
+        "hint": "Nous utilisons des paramètres de planification de la ville (illustratif — vérifiez les règles officielles)."
+      },
+      "1": {
+        "title": "Combien de personnes y vivent en permanence ?",
+        "hint": "Comptez comme sur les formulaires officiels — les données restent sur votre appareil.",
+        "label": "Nombre de résidents permanents"
+      },
+      "2": {
+        "title": "Quel est le revenu mensuel brut du ménage ?",
+        "hint": "Revenu total du ménage avant impôt, en NIS, sur une base mensuelle approximative.",
+        "label": "Revenu mensuel brut du ménage (NIS)",
+        "placeholder": "ex. 18500",
+        "helper": "Arrondissez à la centaine si besoin."
+      },
+      "3": {
+        "title": "Des statuts particuliers s’appliquent-ils ?",
+        "hint": "Sélectionnez tout ce qui pourrait s’appliquer — vous devrez vérifier les définitions officielles.",
+        "sub": "Appuyez pour sélectionner / désélectionner",
+        "skipNote": "Si aucun ne s’applique, continuez sans sélection."
+      },
+      "4": {
+        "title": "Quelle est la surface du logement ?",
+        "hint": "Idéalement la surface cadastrale du bail ou de l’avis municipal.",
+        "label": "Surface (m²)",
+        "placeholder": "ex. 85"
+      }
+    }
+  },
+  "results": {
+    "rangeLabel": "Fourchette illustrative de planification",
+    "pctSectionTitle": "Bande de pourcentage illustrative",
+    "rangeSub": "Affichée en pourcentages pour vous orienter. Pas une promesse d’économies ou d’approbation.",
+    "savingsHeadline": "À peu près ce que vous pourriez libérer chaque année (illustratif)",
+    "savingsRange": "{low} – {high} par an",
+    "savingsNote": "S’appuie sur un placeholder simple — pas votre facture réelle. Vérifiez sur votre avis municipal.",
+    "breakdownTitle": "Ce qui a influencé l’estimation",
+    "shareTitle": "Partager (facultatif)",
+    "shareHelper": "Le partage ne soumet rien à une autorité.",
+    "shareWhatsapp": "WhatsApp",
+    "shareFacebook": "Facebook",
+    "shareText": "J’ai utilisé ArnonaCut pour une vérification privée et posée. Fourchette illustrative : {min}%–{max}%. (Estimation éducative seulement — pas de conseil juridique.)",
+    "shareWaFooter": "⚠️ IMPORTANT : pas de conseil juridique. Pas un outil gouvernemental. Chiffres illustratifs seulement — la municipalité tranche. Vérifiez tout contre vos avis officiels et sources primaires.",
+    "redAlert1Title": "Critique — ne vous fiez pas à cet écran seul",
+    "redAlert1Body": "La fourchette en pourcentage est une illustration simplifiée et non contraignante. Elle peut être incomplète, dépassée par rapport à votre avis, ou inadaptée à vos faits. ArnonaCut n’est affilié à aucune municipalité et ne voit pas votre dossier complet.\n\nRien ici ne remplace une analyse fiscale ou juridique ni une décision officielle. Lisez vos décomptes, règlements et formulaires réels, et consultez un professionnel pour tout litige ou dépôt important.",
+    "redAlert2Title": "Partager, imprimer ou payer ne dépose rien pour vous",
+    "redAlert2Body": "Les contenus payants sont des modèles et listes pour votre relecture. WhatsApp est un confort seulement et n’avertit aucune autorité. Vous restez seul(e) responsable des délais, de l’exactitude et de toute soumission.",
+    "ctaPaywall": "Kit de préparation — {price}",
+    "ctaAgain": "Recommencer",
+    "calculateError": "Impossible de calculer pour le moment. Réessayez.",
+    "kitLockedTitle": "Kit de préparation",
+    "kitLockedSub": "Après un paiement unique, vos téléchargements apparaîtront ici : liste PDF personnalisée et pack complet (ZIP) sur cet appareil.",
+    "kitCheckout": "Paiement sécurisé — {price}",
+    "kitUnlockedTitle": "Votre kit est prêt",
+    "kitUnlockedSub": "L’accès repose sur un jeton privé stocké dans votre navigateur. Vous pouvez télécharger à nouveau depuis cet écran.",
+    "kitDownloadPdf": "Télécharger la liste (PDF)",
+    "kitDownloadZip": "Télécharger le pack complet (ZIP)"
+  },
+  "breakdown": {
+    "income_bracket": "Tranche de revenu (illustratif)",
+    "sqm_above_threshold": "Surface au-delà du seuil",
+    "household_size": "Taille du ménage",
+    "special_statuses": "Statuts sélectionnés (pondérés)"
+  },
+  "premium": {
+    "valueIntro": "Tout est destiné à votre relecture et vos modifications. Aucun dépôt automatique."
+  },
+  "checkout": {
+    "kitLabel": "Kit de préparation",
+    "subtitle": "Achat unique. Supports imprimables pour votre relecture — aucune soumission automatique.",
+    "priceHero": "{price}",
+    "guaranteeTitle": "Garantie satisfait ou remboursé 14 jours",
+    "guaranteeBody": "Si les livrables ne correspondent pas à la description de cette page, contactez-nous dans les 14 jours suivant l’achat pour un remboursement. Outil éducatif — pas une promesse d’issue municipale.",
+    "includesTitle": "Contenu inclus",
+    "i1": "Liste PDF personnalisée en hébreu selon vos saisies",
+    "i2": "Projet de formulaire de demande de réduction (PDF), prérempli le cas échéant",
+    "i3": "Lettre de couverture formelle en hébreu (PDF)",
+    "i4": "Liste de contrôle de dépôt et instructions (PDF)",
+    "i5": "Archive ZIP avec l’ensemble pour enregistrement ou impression hors ligne",
+    "placeholderNote": "Paiement de démonstration : aucune donnée de carte. En production, ce bouton est remplacé par votre prestataire (ex. Stripe, PayPlus, CreditGuard).",
+    "trustSeal": "Paiement sécurisé · supports pour votre relecture",
+    "cta": "Payer {price} (simulé)",
+    "busy": "Traitement…",
+    "missingSession": "Session du questionnaire introuvable. Relancez le parcours guidé depuis l’accueil.",
+    "error": "Paiement impossible. Vérifiez que l’API a ARNONACUT_ENABLE_PLACEHOLDER_PAYMENTS=true pour cette démo (voir README).",
+    "errorNetwork": "Connexion au serveur impossible. Vérifiez le réseau et réessayez.",
+    "urgencyTitle": "Temps limité : vérifiez les échéances municipales",
+    "urgencyBody": "Les fenêtres de réduction, d’exonération et de recours varient selon les villes et les années. Confirmez les dates officielles sur le site de votre autorité — ArnonaCut prépare des documents seulement ; il ne dépose rien pour vous.",
+    "compareTitle": "Estimation gratuite vs ce qui se débloque aujourd’hui",
+    "compareSub": "Le parcours gratuit montre la fourchette. Le paiement ajoute des documents imprimables en hébreu pour votre relecture et vos modifications.",
+    "payAria": "Payer et débloquer le kit de préparation (paiement de démonstration)",
+    "back": "Retour à l’accueil",
+    "successToast": "Paiement confirmé — téléchargements débloqués."
+  },
+  "paywall": {
+    "title": "Kit de préparation",
+    "priceLine": "{price} paiement unique",
+    "includesTitle": "Ce qui est débloqué",
+    "b1": "Une liste PDF imprimable alignée sur vos saisies",
+    "b2": "Modèles texte (squelette de lettre, mémo de faits, index de preuves)",
+    "b3": "Pas de téléversements, pas de soumission automatique, pas de promesses « magiques »",
+    "cta": "Finaliser l’achat (démo)",
+    "busy": "Traitement…",
+    "error": "Paiement impossible. En local, activez ARNONACUT_ALLOW_INSECURE_DEMO_CHECKOUT dans le .env du serveur (voir README).",
+    "demoHint": "Démo : simule un paiement réussi pour tester les téléchargements."
+  },
+  "thankYou": {
+    "badge": "Achat terminé (démo)",
+    "premiumChecklist": "Liste personnalisée (premium)"
+  },
+  "success": {
+    "title": "Tout est prêt",
+    "sub": "Enregistrez ces fichiers sur votre appareil. ArnonaCut ne conserve pas vos téléchargements.",
+    "downloadPdf": "Télécharger la liste (PDF)",
+    "downloadZip": "Télécharger les modèles (ZIP)",
+    "checklistTitle": "Rappels rapides",
+    "c1": "Vérifiez chaque fait contre les avis officiels et sources primaires.",
+    "c2": "Tenez un journal daté de ce qui a été envoyé et reçu.",
+    "c3": "Privilégiez des écrits courts et factuels ; joignez des index plutôt que des dossiers désordonnés.",
+    "c4": "Revérifiez les échéances sur le site municipal ou les consignes écrites.",
+    "again": "Retour à l’accueil"
+  },
+  "footer": {
+    "legalHeading": "Juridique",
+    "disclaimers": "Avis de non-responsabilité complets",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d’utilisation"
+  },
+  "legal": {
+    "fullDisclaimerDetailsSummary": "Avis juridiques complets (appuyez pour développer)",
+    "standaloneLinkText": "Page de référence bilingue (anglais + hébreu)",
+    "fullDisclaimerBody": "ArnonaCut is an educational planning tool about municipal property charges (“arnona”). All outputs—including illustrative percentage ranges, breakdowns, checklists, and downloadable PDFs or ZIP packs—are provided for general orientation only. They are not official assessments, quotations, or binding calculations and may be incomplete, outdated, or unsuitable for your specific facts.\n\nThe numbers shown are estimates only. They do not predict any actual discount, rebate, exemption, refund, approval timeline, or final liability.\n\nNothing on this website, in any message, or inside any generated document constitutes legal advice, tax advice, accounting advice, or guidance from any government body. Using ArnonaCut does not create an attorney–client relationship or any other regulated professional relationship. Obtain advice from a qualified professional before relying on any conclusion here.\n\nOnly the competent municipality or other statutory authority may decide whether any reduction applies, what evidence and forms are required, and what deadlines apply. That authority is solely responsible for its final decision on your case. ArnonaCut is not affiliated with any municipality or government entity and does not submit applications on your behalf. Any filing is performed only if you independently prepare and submit materials yourself.\n\nYou are fully responsible for every submission you make to any authority, for verifying all facts and figures against primary sources and official municipal notices, for correcting any draft text produced here, and for meeting all procedural and time limits. You accept that any reliance on estimates or templates is at your own risk.\n\nPaid materials remain educational templates and aids. Purchase does not guarantee any particular outcome. Demo or placeholder payment flows are for testing and must be replaced by compliant payment processing in production.\n\nTo the maximum extent permitted by applicable law, ArnonaCut and its operators shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of profits, goodwill, data, or opportunities arising out of your use of the service. Total aggregate liability shall not exceed the amount you actually paid for the Preparation Kit in the twelve months before the claim, or zero if unpaid. Where limitations are not enforceable, they apply to the fullest extent allowed.\n\nBy continuing to use the site you acknowledge these disclaimers together with the Terms of Service and Privacy Policy linked in the footer. If you do not agree, discontinue use immediately."
+  }
+}

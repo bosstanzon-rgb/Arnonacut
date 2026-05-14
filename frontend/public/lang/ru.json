@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "skipToContent": "Перейти к содержимому",
+    "ariaLanguage": "Выбор языка интерфейса",
+    "footerRights": "ArnonaCut. Не аффилировано с государственными органами.",
+    "contact": "Контакт"
+  },
+  "errors": {
+    "network": "Не удалось связаться с сервером. Проверьте подключение и попробуйте снова.",
+    "rateLimit": "Слишком много запросов. Подождите минуту и попробуйте снова."
+  },
+  "brand": {
+    "name": "ArnonaCut",
+    "tagline": "Спокойная и приватная подготовка к проверке арноны."
+  },
+  "flow": {
+    "resumeTitle": "Продолжить с того места, где остановились?",
+    "resumeHint": "Ответы и результаты сохраняются только на этом устройстве.",
+    "resume": "Продолжить",
+    "discard": "Начать заново"
+  },
+  "disclaimer": {
+    "banner": "Только учебный инструмент. Не юридическая и не налоговая консультация, не указания органов власти. Проценты — лишь иллюстративная оценка. Без загрузок, без авто-подачи, без гарантий исхода в муниципалитете.",
+    "footer": "ArnonaCut даёт общие чек-листы и шаблоны для самостоятельной правки. Итог зависит от фактов, доказательств и правил муниципалитета. Окончательное решение принимает только муниципалитет. Вы полностью отвечаете за любую подачу. При необходимости обратитесь к специалисту.",
+    "results": "Диапазон процентов — только иллюстративная оценка. Это не прогноз скидки, возврата или одобрения. Это не юридическая консультация. Окончательное решение принимает муниципалитет.",
+    "paywall": "Оплата открывает только материалы для подготовки к печати. Она ничего не подаёт за вас, не создаёт отношений адвокат–клиент и не гарантирует исход в муниципалитете.",
+    "success": "Загрузки — шаблоны и PDF чек-лист только для вашей проверки и правок. Вы полностью отвечаете за точность, полноту и сроки перед любой подачей. Окончательный исход определяет муниципалитет."
+  },
+  "landing": {
+    "badge": "Приватно · без загрузки документов",
+    "headline": "Проверьте, не переплачиваете ли вы по арноне — за минуту",
+    "sub": "Спокойный пошаговый сценарий с иллюстративным диапазоном. Без загрузок и без подачи за вас — вы контролируете процесс.",
+    "cta": "Проверить скидку",
+    "trust1Title": "Бесплатно и приватно",
+    "trust1Sub": "Без аккаунта. Ответы остаются на устройстве, пока вы сами не продолжите.",
+    "trust2Title": "Без загрузок",
+    "trust2Sub": "Счета, паспорта и банковские файлы здесь не собираются.",
+    "trust3Title": "Понятно и аккуратно",
+    "trust3Sub": "Простые шаги и честные предупреждения — в первую очередь обучение.",
+    "socialProof": "Более 8 400 израильских домохозяйств уже прошли эту приватную проверку, чтобы увидеть иллюстративный диапазон скидки — на своём устройстве и в своём темпе. (Цифра для мотивации; не официальная статистика.)",
+    "ctaAria": "Начать пошаговую проверку иллюстративного диапазона скидки по арноне",
+    "compareTitle": "Бесплатная проверка vs набор подготовки",
+    "compareSub": "Те же честные оговорки — в наборе добавляются структурированные документы на иврите для печати и самостоятельной правки.",
+    "compareFreeBadge": "Бесплатно",
+    "compareFree1": "Пошаговый опрос и иллюстративный диапазон процентов",
+    "compareFree2": "Приватно — ответы остаются на устройстве, пока вы не продолжите",
+    "compareFree3": "Кнопки для WhatsApp / Facebook (ничего не подаётся за вас)",
+    "compareFree4": "Учебная расшифровка, что повлияло на оценку",
+    "comparePremiumBadge": "Набор подготовки (единоразово)",
+    "comparePremium1": "Персональный PDF чек-лист на иврите по вашим данным",
+    "comparePremium2": "Черновик заявления на скидку + официальное письмо (PDF)",
+    "comparePremium3": "Чек-лист подачи и ZIP для офлайна",
+    "comparePremium4": "14 дней гарантии на соответствие материалов (см. оплату)"
+  },
+  "wizard": {
+    "stepOf": "Шаг {n} из {total}",
+    "conversational": {
+      "0": "Сначала — какой муниципалитет выставляет счёт; ответ остаётся только на этом устройстве.",
+      "1": "Размер домохозяйства часто входит в модели; достаточно примерной цифры.",
+      "2": "Доходные ступени сильно влияют; укажите валовый месячный доход в ₪, можно округлить.",
+      "3": "Особые статусы — по желанию; пропустите, если не уверены.",
+      "4": "Последний шаг: площадь сравнивается с местными порогами (не официальная оценка)."
+    },
+    "back": "Назад",
+    "next": "Далее",
+    "finish": "Показать оценку",
+    "submitting": "Считаем…",
+    "city": {
+      "loading": "Загрузка городов…",
+      "errorTitle": "Не удалось загрузить города",
+      "error": "Не удалось загрузить города. Проверьте соединение."
+    },
+    "catalogError": "Не удалось загрузить варианты особых статусов. Проверьте соединение.",
+    "validation": {
+      "city": "Выберите муниципалитет.",
+      "household": "Введите число постоянно проживающих.",
+      "income": "Введите корректный валовый месячный доход (шекели).",
+      "sqm": "Введите площадь квартиры в кв. м."
+    },
+    "steps": {
+      "0": {
+        "title": "Какой муниципалитет выставляет вашу арнону?",
+        "hint": "Используются планировочные параметры города (иллюстративно — проверяйте официальные правила)."
+      },
+      "1": {
+        "title": "Сколько человек постоянно проживает?",
+        "hint": "Считайте как в официальных формах — данные остаются только на устройстве.",
+        "label": "Число постоянных жильцов"
+      },
+      "2": {
+        "title": "Каков валовый месячный доход домохозяйства?",
+        "hint": "Совокупный доход до налогов, в шекелях, примерно за месяц.",
+        "label": "Валовый месячный доход (₪)",
+        "placeholder": "например 18500",
+        "helper": "Можно округлить до сотен, если не уверены."
+      },
+      "3": {
+        "title": "Применимы ли особые статусы?",
+        "hint": "Отметьте всё подходящее — определения всё равно нужно проверить официально.",
+        "sub": "Нажмите, чтобы выбрать / снять",
+        "skipNote": "Если ни один не подходит — просто продолжите."
+      },
+      "4": {
+        "title": "Какова площадь квартиры?",
+        "hint": "Лучше зарегистрированная площадь из договора или уведомления.",
+        "label": "Площадь (кв. м)",
+        "placeholder": "например 85"
+      }
+    }
+  },
+  "results": {
+    "rangeLabel": "Иллюстративный диапазон для планирования",
+    "pctSectionTitle": "Иллюстративная полоса процентов",
+    "rangeSub": "Показан как диапазон процентов для ориентира. Не обещание экономии или одобрения.",
+    "savingsHeadline": "Примерно сколько можно высвободить в год (иллюстративно)",
+    "savingsRange": "{low} – {high} в год",
+    "savingsNote": "Используется упрощённая оценка годовой суммы — не ваш реальный счёт. Сверяйте с официальным уведомлением.",
+    "breakdownTitle": "Что повлияло на оценку",
+    "shareTitle": "Поделиться (по желанию)",
+    "shareHelper": "Публикация ничего не подаёт в органы власти.",
+    "shareWhatsapp": "WhatsApp",
+    "shareFacebook": "Facebook",
+    "shareText": "Я использовал(а) ArnonaCut для спокойной частной проверки. Иллюстративный диапазон: {min}%–{max}%. (Только учебная оценка — не юридический совет.)",
+    "shareWaFooter": "⚠️ ВАЖНО: не юридический совет. Не государственный сервис. Цифры только для ориентира — решает муниципалитет. Проверяйте всё по официальным уведомлениям и первоисточникам.",
+    "redAlert1Title": "Критически важно — не полагайтесь только на этот экран",
+    "redAlert1Body": "Диапазон процентов — упрощённая иллюстрация без обязательной силы. Он может быть неполным, устаревшим по сравнению с вашим счётом или неверным для ваших фактов. ArnonaCut не связан с муниципалитетом и не видит ваше полное дело.\n\nЭто не налоговая и не юридическая консультация и не официальная оценка. Читайте реальные начисления, уставы и формы; при спорных решениях обратитесь к специалисту.",
+    "redAlert2Title": "Публикация, печать или оплата ничего не подают за вас",
+    "redAlert2Body": "Платные материалы — шаблоны и чек-листы для самостоятельной правки. Публикация в WhatsApp — только удобство и не уведомляет органы власти. Вы несёте полную ответственность за сроки, точность и любые подачи.",
+    "ctaPaywall": "Набор подготовки — {price}",
+    "ctaAgain": "Начать сначала",
+    "calculateError": "Сейчас не удалось посчитать. Попробуйте снова.",
+    "kitLockedTitle": "Набор подготовки",
+    "kitLockedSub": "После единоразовой оплаты здесь появятся загрузки: персональный PDF чек-лист и полный пакет (ZIP) на этом устройстве.",
+    "kitCheckout": "Перейти к безопасной оплате — {price}",
+    "kitUnlockedTitle": "Набор готов",
+    "kitUnlockedSub": "Доступ привязан к приватному токену в браузере. Можно скачать снова с этого экрана.",
+    "kitDownloadPdf": "Скачать чек-лист (PDF)",
+    "kitDownloadZip": "Скачать полный набор (ZIP)"
+  },
+  "breakdown": {
+    "income_bracket": "Доходная ступень (иллюстративно)",
+    "sqm_above_threshold": "Площадь выше порога",
+    "household_size": "Размер домохозяйства",
+    "special_statuses": "Выбранные статусы (с весами)"
+  },
+  "premium": {
+    "valueIntro": "Всё для самостоятельной проверки и правки. Авто-подачи нет."
+  },
+  "checkout": {
+    "kitLabel": "Набор подготовки",
+    "subtitle": "Единоразовая покупка. Материалы для печати — только для вашей проверки, без автоматической подачи.",
+    "priceHero": "{price}",
+    "guaranteeTitle": "Гарантия удовлетворения 14 дней",
+    "guaranteeBody": "Если материалы не соответствуют описанию на этой странице, свяжитесь с нами в течение 14 дней с момента покупки для возврата средств. Учебный инструмент — не обещание результата в муниципалитете.",
+    "includesTitle": "Что входит",
+    "i1": "Персональный PDF чек-лист на иврите по вашим данным",
+    "i2": "Черновик заявления на скидку (PDF), заполненный где возможно",
+    "i3": "Формальное сопроводительное письмо на иврите (PDF)",
+    "i4": "Чек-лист подачи и инструкции (PDF)",
+    "i5": "ZIP-архив со всем перечисленным для сохранения или печати",
+    "placeholderNote": "Демо-оплата: данные карты не собираются. В продакшене кнопка заменяется провайдером (Stripe, PayPlus, CreditGuard и т.д.).",
+    "trustSeal": "Безопасная оплата · материалы для самостоятельной проверки",
+    "cta": "Оплатить {price} (симуляция)",
+    "busy": "Обработка…",
+    "missingSession": "Сессия анкеты не найдена. Запустите пошаговую проверку с главной страницы.",
+    "error": "Оплата не выполнена. Убедитесь, что на сервере ARNONACUT_ENABLE_PLACEHOLDER_PAYMENTS=true (см. README).",
+    "errorNetwork": "Не удалось связаться с сервером. Проверьте подключение и попробуйте снова.",
+    "urgencyTitle": "Ограниченное время: проверьте муниципальные сроки",
+    "urgencyBody": "Окна для скидок, льгот и возражений задаёт каждый город и они меняются из года в год. Уточняйте официальные даты на сайте муниципалитета — ArnonaCut готовит материалы и ничего не подаёт за вас.",
+    "compareTitle": "Бесплатная оценка vs что открывается сейчас",
+    "compareSub": "Бесплатный сценарий показывает диапазон. Оплата добавляет печатные документы на иврите для вашей проверки и правок.",
+    "payAria": "Оплатить и открыть набор подготовки (демо-оплата)",
+    "back": "На главную",
+    "successToast": "Оплата подтверждена — загрузки разблокированы."
+  },
+  "paywall": {
+    "title": "Набор подготовки",
+    "priceLine": "{price} единоразово",
+    "includesTitle": "Что открывается",
+    "b1": "Печатный PDF чек-лист по вашим вводам",
+    "b2": "Текстовые шаблоны (каркас письма, памятка фактов, индекс доказательств)",
+    "b3": "Без загрузок, без авто-подачи, без «магических» обещаний",
+    "cta": "Завершить покупку (демо)",
+    "busy": "Обработка…",
+    "error": "Оплата не прошла. Локально включите ARNONACUT_ALLOW_INSECURE_DEMO_CHECKOUT в .env сервера (см. README).",
+    "demoHint": "Демо: имитирует успешную оплату для проверки загрузок."
+  },
+  "thankYou": {
+    "badge": "Покупка завершена (демо)",
+    "premiumChecklist": "Персональный чек-лист (премиум)"
+  },
+  "success": {
+    "title": "Готово",
+    "sub": "Сохраните файлы на устройство. ArnonaCut не хранит загрузки за вас.",
+    "downloadPdf": "Скачать чек-лист (PDF)",
+    "downloadZip": "Скачать шаблоны (ZIP)",
+    "checklistTitle": "Короткие напоминания",
+    "c1": "Проверьте каждый факт по официальным уведомлениям и первичным источникам.",
+    "c2": "Ведите датированный журнал отправленного и полученного.",
+    "c3": "Пишите коротко и по фактам; прикладывайте индексы вместо хаоса файлов.",
+    "c4": "Перепроверьте сроки на сайте муниципалитета или в письменных инструкциях.",
+    "again": "На главную"
+  },
+  "footer": {
+    "legalHeading": "Правовая информация",
+    "disclaimers": "Полные отказ от ответственности",
+    "privacy": "Политика конфиденциальности",
+    "terms": "Условия использования"
+  },
+  "legal": {
+    "fullDisclaimerDetailsSummary": "Полные юридические оговорки (нажмите, чтобы развернуть)",
+    "standaloneLinkText": "Двуязычная справочная страница (английский + иврит)",
+    "fullDisclaimerBody": "ArnonaCut is an educational planning tool about municipal property charges (“arnona”). All outputs—including illustrative percentage ranges, breakdowns, checklists, and downloadable PDFs or ZIP packs—are provided for general orientation only. They are not official assessments, quotations, or binding calculations and may be incomplete, outdated, or unsuitable for your specific facts.\n\nThe numbers shown are estimates only. They do not predict any actual discount, rebate, exemption, refund, approval timeline, or final liability.\n\nNothing on this website, in any message, or inside any generated document constitutes legal advice, tax advice, accounting advice, or guidance from any government body. Using ArnonaCut does not create an attorney–client relationship or any other regulated professional relationship. Obtain advice from a qualified professional before relying on any conclusion here.\n\nOnly the competent municipality or other statutory authority may decide whether any reduction applies, what evidence and forms are required, and what deadlines apply. That authority is solely responsible for its final decision on your case. ArnonaCut is not affiliated with any municipality or government entity and does not submit applications on your behalf. Any filing is performed only if you independently prepare and submit materials yourself.\n\nYou are fully responsible for every submission you make to any authority, for verifying all facts and figures against primary sources and official municipal notices, for correcting any draft text produced here, and for meeting all procedural and time limits. You accept that any reliance on estimates or templates is at your own risk.\n\nPaid materials remain educational templates and aids. Purchase does not guarantee any particular outcome. Demo or placeholder payment flows are for testing and must be replaced by compliant payment processing in production.\n\nTo the maximum extent permitted by applicable law, ArnonaCut and its operators shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of profits, goodwill, data, or opportunities arising out of your use of the service. Total aggregate liability shall not exceed the amount you actually paid for the Preparation Kit in the twelve months before the claim, or zero if unpaid. Where limitations are not enforceable, they apply to the fullest extent allowed.\n\nBy continuing to use the site you acknowledge these disclaimers together with the Terms of Service and Privacy Policy linked in the footer. If you do not agree, discontinue use immediately."
+  }
+}

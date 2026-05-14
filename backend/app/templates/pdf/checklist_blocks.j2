@@ -1,0 +1,13 @@
+{% if estimate %}
+Estimated illustrative range (not a promise): {{ estimate.get('min_pct') }}% – {{ estimate.get('max_pct') }}%.
+{% endif %}
+
+<b>Your recorded responses (review for accuracy):</b><br/>
+{% for k, v in answers.items() %}
+• {{ k }}: {{ v }}<br/>
+{% endfor %}
+
+<b>Checklist highlights:</b><br/>
+• Confirm the official definition of “residence” and exemptions in your municipality.<br/>
+• Keep copies of every document you rely on; note why each document matters.<br/>
+• Prefer short, dated written communication; keep receipts of submission where applicable.<br/>

@@ -1,0 +1,20 @@
+# Render.com Blueprint — set the service **Root Directory** to `arnonacut` (this folder).
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: arnonacut
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: starter
+    envVars:
+      - key: ARNONACUT_DATABASE_URL
+        value: sqlite:///./data/arnonacut.db
+      - key: ARNONACUT_CORS_ORIGINS
+        sync: false
+      - key: ARNONACUT_DEMO_PAYMENT_SECRET
+        generateValue: true
+      - key: ARNONACUT_ENABLE_PLACEHOLDER_PAYMENTS
+        value: "false"
+      - key: ARNONACUT_ALLOW_INSECURE_DEMO_CHECKOUT
+        value: "false"
