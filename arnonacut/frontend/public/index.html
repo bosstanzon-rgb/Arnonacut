@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="ArnonaCut — calm arnona preparation: calculator, checklists, templates. No uploads. No auto-submission."
+    />
+    <title>ArnonaCut</title>
+    <!-- arnonacut-results-bundle: 2026-05-14 next-steps + Pro conversion -->
+    <meta name="theme-color" content="#0f766e" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/assets/icons/icon-192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/tailwind.css" />
+  </head>
+  <body class="mesh-hero flex min-h-screen flex-col font-sans text-slate-800">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:start-4 focus:top-4 focus:z-[100] focus:rounded-xl focus:bg-white focus:px-4 focus:py-2.5 focus:text-slate-900 focus:shadow-premium"
+      data-i18n="meta.skipToContent"
+      >Skip to content</a
+    >
+
+    <header
+      class="sticky top-0 z-50 border-b border-slate-200/60 bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/70"
+    >
+      <div class="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3.5 sm:px-6 rtl:flex-row-reverse">
+        <a
+          href="#"
+          id="logo-home"
+          class="group flex min-w-0 items-center gap-3 rounded-xl outline-none transition hover:opacity-95 focus-visible:ring-2 focus-visible:ring-brand-500/40"
+        >
+          <span
+            class="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-brand-600 via-brand-500 to-forest-500 text-xs font-bold tracking-tight text-white shadow-glow ring-2 ring-white/30"
+            aria-hidden="true"
+          >
+            <span class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></span>
+            <span class="relative">AC</span>
+          </span>
+          <div class="min-w-0 text-start">
+            <p class="truncate text-sm font-semibold tracking-tight text-slate-900" data-i18n="brand.name">ArnonaCut</p>
+            <p class="hidden truncate text-xs font-medium text-slate-500 sm:block" data-i18n="brand.tagline"></p>
+          </div>
+        </a>
+        <div
+          class="flex shrink-0 items-center gap-0.5 rounded-full border border-slate-200/80 bg-slate-50/90 p-1 shadow-sm"
+          id="lang-bar"
+          role="group"
+          data-i18n-aria="meta.ariaLanguage"
+        ></div>
+      </div>
+      <div class="border-t border-slate-100/90 bg-gradient-to-r from-trust-50/40 via-white to-brand-50/50">
+        <p
+          class="mx-auto max-w-5xl px-4 py-2.5 text-center text-[11px] font-medium leading-relaxed text-slate-600 sm:px-6 sm:text-xs"
+          data-i18n="disclaimer.banner"
+        ></p>
+      </div>
+    </header>
+
+    <main id="main" class="mx-auto w-full max-w-5xl flex-1 px-4 pb-20 pt-8 sm:px-6 sm:pt-12">
+      <!-- Landing -->
+      <section id="view-landing" class="space-y-12 opacity-0-start animate-fade-up animate-fill-mode-forwards">
+        <div
+          id="flow-resume-banner"
+          class="hidden overflow-hidden rounded-2xl border border-brand-200/70 bg-gradient-to-r from-brand-50 to-white p-5 shadow-calm ring-1 ring-brand-100/50 sm:p-6"
+        >
+          <p class="text-sm font-semibold text-brand-900" data-i18n="flow.resumeTitle"></p>
+          <p class="mt-1.5 text-xs leading-relaxed text-brand-800/85" data-i18n="flow.resumeHint"></p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <button
+              type="button"
+              id="btn-resume"
+              class="rounded-xl bg-brand-700 px-5 py-2.5 text-sm font-semibold text-white shadow-md transition hover:bg-brand-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
+              data-i18n="flow.resume"
+            ></button>
+            <button
+              type="button"
+              id="btn-discard-saved"
+              class="rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-300"
+              data-i18n="flow.discard"
+            ></button>
+          </div>
+        </div>
+
+        <!-- Hero -->
+        <div class="relative overflow-hidden rounded-[1.75rem] border border-white/70 bg-white/75 shadow-premium backdrop-blur-2xl sm:rounded-[2rem]">
+          <div
+            class="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-gradient-to-br from-brand-400/25 to-transparent blur-3xl"
+            aria-hidden="true"
+          ></div>
+          <div
+            class="pointer-events-none absolute -bottom-28 -left-20 h-80 w-80 rounded-full bg-gradient-to-tr from-forest-400/20 to-transparent blur-3xl"
+            aria-hidden="true"
+          ></div>
+          <div
+            class="pointer-events-none absolute left-1/2 top-0 h-px w-3/5 -translate-x-1/2 bg-gradient-to-r from-transparent via-trust-500/35 to-transparent"
+            aria-hidden="true"
+          ></div>
+
+          <div class="relative px-5 py-12 text-center sm:px-12 sm:py-16 sm:text-start">
+            <div
+              class="mx-auto inline-flex items-center gap-2 rounded-full border border-brand-200/80 bg-brand-50/90 px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-brand-900 shadow-sm sm:mx-0"
+            >
+              <svg class="h-3.5 w-3.5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+              <span data-i18n="landing.badge"></span>
+            </div>
+
+            <h1
+              class="mx-auto mt-6 max-w-3xl text-balance text-4xl font-bold tracking-tight text-slate-900 sm:mx-0 sm:text-5xl sm:leading-[1.08] lg:text-[3.15rem]"
+              data-i18n="landing.headline"
+            ></h1>
+            <p
+              class="mx-auto mt-5 max-w-2xl text-pretty text-lg leading-relaxed text-slate-600 sm:mx-0 sm:text-xl"
+              data-i18n="landing.sub"
+            ></p>
+
+            <div class="mt-10 flex flex-col items-center gap-4 sm:items-start">
+              <button
+                type="button"
+                id="btn-start"
+                data-i18n-aria="landing.ctaAria"
+                class="group relative w-full max-w-md overflow-hidden rounded-2xl bg-gradient-to-r from-brand-700 via-brand-600 to-brand-500 px-8 py-4 text-base font-semibold text-white shadow-glow ring-1 ring-white/20 transition hover:brightness-[1.03] active:scale-[0.99] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 sm:w-auto sm:min-w-[280px] sm:px-10 sm:py-4 sm:text-lg"
+              >
+                <span class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 transition group-hover:opacity-100" aria-hidden="true"></span>
+                <span class="relative flex items-center justify-center gap-2">
+                  <span data-i18n="landing.cta"></span>
+                  <svg class="h-5 w-5 transition group-hover:translate-x-0.5 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </span>
+              </button>
+              <p class="max-w-xl text-center text-xs leading-relaxed text-slate-500 sm:text-start" data-i18n="disclaimer.footer"></p>
+            </div>
+
+            <!-- Trust strip -->
+            <div class="mt-14 grid gap-4 sm:grid-cols-3">
+              <div
+                class="group rounded-2xl border border-slate-200/80 bg-white/80 p-4 text-start shadow-sm transition hover:border-brand-200/90 hover:shadow-md"
+              >
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-50 text-brand-700 ring-1 ring-brand-100">
+                  <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm font-semibold text-slate-900" data-i18n="landing.trust1Title"></p>
+                <p class="mt-1 text-xs leading-relaxed text-slate-600" data-i18n="landing.trust1Sub"></p>
+              </div>
+              <div
+                class="group rounded-2xl border border-slate-200/80 bg-white/80 p-4 text-start shadow-sm transition hover:border-forest-200/90 hover:shadow-md"
+              >
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-forest-50 text-forest-700 ring-1 ring-forest-100">
+                  <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm font-semibold text-slate-900" data-i18n="landing.trust2Title"></p>
+                <p class="mt-1 text-xs leading-relaxed text-slate-600" data-i18n="landing.trust2Sub"></p>
+              </div>
+              <div
+                class="group rounded-2xl border border-slate-200/80 bg-white/80 p-4 text-start shadow-sm transition hover:border-trust-200/90 hover:shadow-md"
+              >
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-trust-50 text-trust-600 ring-1 ring-trust-100">
+                  <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm font-semibold text-slate-900" data-i18n="landing.trust3Title"></p>
+                <p class="mt-1 text-xs leading-relaxed text-slate-600" data-i18n="landing.trust3Sub"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center justify-center gap-3 rounded-2xl border border-brand-100/90 bg-gradient-to-r from-brand-50/90 via-white to-trust-50/50 px-5 py-4 text-center shadow-sm sm:flex-row sm:gap-5 sm:px-8 sm:py-5 sm:text-start"
+          role="status"
+        >
+          <div class="flex shrink-0 -space-x-2 rtl:space-x-reverse" aria-hidden="true">
+            <span
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-gradient-to-br from-brand-500 to-brand-700 text-[10px] font-bold text-white shadow-md"
+              >IL</span
+            >
+            <span
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-gradient-to-br from-forest-400 to-forest-600 text-[10px] font-bold text-white shadow-md"
+              >+</span
+            >
+            <span
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-gradient-to-br from-trust-400 to-trust-600 text-[10px] font-bold text-white shadow-md"
+              >8k</span
+            >
+          </div>
+          <p class="max-w-2xl text-pretty text-sm font-medium leading-relaxed text-slate-700" data-i18n="landing.socialProof"></p>
+        </div>
+
+        <div
+          class="rounded-[1.65rem] border border-slate-200/80 bg-white/90 p-6 shadow-calm ring-1 ring-slate-100/80 sm:p-8"
+        >
+          <h2 class="text-lg font-bold tracking-tight text-slate-900 sm:text-xl" data-i18n="landing.compareTitle"></h2>
+          <p class="mt-2 text-sm leading-relaxed text-slate-600" data-i18n="landing.compareSub"></p>
+          <div class="mt-6 grid gap-4 md:grid-cols-2 md:gap-6">
+            <div
+              class="rounded-2xl border border-slate-200/90 bg-slate-50/80 p-5 transition duration-300 hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-md"
+            >
+              <p class="text-xs font-bold uppercase tracking-wide text-slate-500" data-i18n="landing.compareFreeBadge"></p>
+              <ul class="mt-4 space-y-3 text-sm leading-relaxed text-slate-700">
+                <li class="flex gap-2.5">
+                  <span class="mt-0.5 font-bold text-forest-600" aria-hidden="true">✓</span>
+                  <span data-i18n="landing.compareFree1"></span>
+                </li>
+                <li class="flex gap-2.5">
+                  <span class="mt-0.5 font-bold text-forest-600" aria-hidden="true">✓</span>
+                  <span data-i18n="landing.compareFree2"></span>
+                </li>
+                <li class="flex gap-2.5">
+                  <span class="mt-0.5 font-bold text-forest-600" aria-hidden="true">✓</span>
+                  <span data-i18n="landing.compareFree3"></span>
+                </li>
+                <li class="flex gap-2.5">
+                  <span class="mt-0.5 font-bold text-forest-600" aria-hidden="true">✓</span>
+                  <span data-i18n="landing.compareFree4"></span>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="rounded-2xl border-2 border-brand-400/70 bg-gradient-to-b from-brand-50/95 to-white p-5 shadow-md ring-1 ring-brand-100/80 transition duration-300 hover:-translate-y-0.5 hover:shadow-premium"
+            >
+              <p class="text-xs font-bold uppercase tracking-wide text-brand-800" data-i18n="landing.comparePremiumBadge"></p>
+              <ul class="mt-4 space-y-3 text-sm leading-relaxed text-slate-800">
+                <li class="flex gap-2.5">
+                  <span class="mt-0.5 font-bold text-brand-600" aria-hidden="true">✓</span>
+                  <span data-i18n="landing.comparePremium1"></span>
+                </li>
+                <li class="flex gap-2.5">
+                  <span class="mt-0.5 font-bold text-brand-600" aria-hidden="true">✓</span>
+                  <span data-i18n="landing.comparePremium2"></span>
+                </li>
+                <li class="flex gap-2.5">
+                  <span class="mt-0.5 font-bold text-brand-600" aria-hidden="true">✓</span>
+                  <span data-i18n="landing.comparePremium3"></span>
+                </li>
+                <li class="flex gap-2.5">
+                  <span class="mt-0.5 font-bold text-brand-600" aria-hidden="true">✓</span>
+                  <span data-i18n="landing.comparePremium4"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quiz -->
+      <section id="view-quiz" class="hidden space-y-8">
+        <div class="mx-auto max-w-2xl space-y-5">
+          <div
+            class="rounded-2xl border border-slate-200/80 bg-white/90 px-5 py-4 shadow-calm backdrop-blur-sm sm:px-6"
+          >
+            <div class="mb-2 flex items-end justify-between gap-3">
+              <span id="quiz-step-label" class="text-xs font-semibold uppercase tracking-wider text-brand-800/90"></span>
+              <span id="quiz-fraction" class="text-xs tabular-nums font-medium text-slate-400"></span>
+            </div>
+            <div
+              class="h-2.5 overflow-hidden rounded-full bg-slate-100 shadow-inner"
+              role="progressbar"
+              aria-valuemin="1"
+              aria-valuemax="5"
+              id="quiz-progress-wrap"
+            >
+              <div
+                id="quiz-progress-bar"
+                class="relative h-full overflow-hidden rounded-full bg-gradient-to-r from-brand-500 via-brand-400 to-forest-400 transition-[width] duration-700 ease-out"
+                style="width: 20%"
+              >
+                <span
+                  class="pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent bg-[length:200%_100%] animate-shimmer opacity-60"
+                  aria-hidden="true"
+                ></span>
+              </div>
+            </div>
+            <p class="mt-3 text-pretty text-[11px] leading-relaxed text-slate-500 sm:text-xs" data-i18n="disclaimer.banner"></p>
+          </div>
+
+          <div
+            id="quiz-card"
+            class="rounded-[1.65rem] border border-slate-200/70 bg-white/95 p-6 shadow-premium ring-1 ring-slate-100/80 transition duration-300 ease-out hover:-translate-y-0.5 hover:shadow-premium sm:p-9 opacity-0-start animate-fade-up animate-fill-mode-forwards"
+          >
+            <h2 id="quiz-title" class="text-xl font-bold leading-snug tracking-tight text-slate-900 sm:text-2xl"></h2>
+            <p id="quiz-hint" class="mt-2.5 text-sm leading-relaxed text-slate-600 sm:text-base"></p>
+            <p
+              id="quiz-voice"
+              class="mt-5 rounded-2xl border border-brand-100/90 bg-gradient-to-br from-brand-50/90 to-white px-4 py-3.5 text-sm font-medium leading-relaxed text-brand-950/95 shadow-sm"
+              role="status"
+              aria-live="polite"
+            ></p>
+            <div id="quiz-body" class="mt-8 min-h-[13rem]"></div>
+            <div class="mt-10 flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-8">
+              <button
+                type="button"
+                id="btn-quiz-back"
+                class="rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-slate-300 hover:bg-slate-50 active:scale-[0.99] focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-300 disabled:cursor-not-allowed disabled:opacity-35"
+                data-i18n="wizard.back"
+              ></button>
+              <button
+                type="button"
+                id="btn-quiz-next"
+                class="rounded-xl bg-gradient-to-r from-forest-600 to-forest-500 px-7 py-3 text-sm font-semibold text-white shadow-md transition hover:brightness-[1.05] active:scale-[0.99] focus:outline-none focus-visible:ring-2 focus-visible:ring-forest-400 focus-visible:ring-offset-2"
+                data-i18n="wizard.next"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="view-results" class="hidden space-y-8">
+        <p
+          class="text-center text-[11px] font-semibold uppercase tracking-widest text-brand-800/90"
+          data-i18n="disclaimer.results"
+        ></p>
+
+        <div
+          id="results-hero"
+          class="relative overflow-hidden rounded-[1.75rem] border border-trust-500/20 bg-gradient-to-br from-brand-800 via-brand-700 to-brand-900 p-7 text-white shadow-premium sm:rounded-[2rem] sm:p-10 opacity-0-start animate-scale-in animate-fill-mode-forwards"
+        >
+          <div id="results-confetti" class="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true"></div>
+          <div class="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full bg-brand-400/15 blur-3xl" aria-hidden="true"></div>
+          <div class="pointer-events-none absolute -bottom-24 -left-16 h-48 w-48 rounded-full bg-forest-400/10 blur-3xl" aria-hidden="true"></div>
+
+          <div class="relative text-center sm:text-start">
+            <div
+              id="results-savings-block"
+              class="relative mx-auto hidden max-w-2xl rounded-2xl border border-white/35 bg-gradient-to-br from-white/18 to-white/5 px-6 py-7 shadow-lg ring-1 ring-white/25 backdrop-blur-md sm:mx-0 sm:px-8 sm:py-8"
+            >
+              <p
+                id="results-savings-headline"
+                class="text-center text-sm font-semibold leading-snug text-brand-50 sm:text-start sm:text-base"
+              ></p>
+              <p
+                id="results-savings-range"
+                class="mt-4 text-center text-4xl font-extrabold tabular-nums leading-[1.05] tracking-tight text-white sm:text-start sm:text-5xl md:text-6xl"
+              ></p>
+              <p
+                id="results-savings-note"
+                class="mt-4 text-center text-xs leading-relaxed text-brand-100/95 sm:text-start"
+              ></p>
+            </div>
+
+            <div class="mx-auto my-8 max-w-xl border-t border-white/20 sm:mx-0" aria-hidden="true"></div>
+
+            <p class="text-xs font-semibold uppercase tracking-widest text-brand-100/90" data-i18n="results.pctSectionTitle"></p>
+            <div class="mt-3 flex flex-wrap items-baseline justify-center gap-2 sm:justify-start">
+              <span id="results-min" class="text-4xl font-bold tabular-nums tracking-tight sm:text-5xl">0</span>
+              <span class="text-2xl font-light text-brand-200/90">–</span>
+              <span id="results-max" class="text-4xl font-bold tabular-nums tracking-tight sm:text-5xl">0</span>
+              <span class="text-lg font-semibold text-brand-100/90">%</span>
+            </div>
+            <p class="mx-auto mt-4 max-w-prose text-sm leading-relaxed text-brand-50/95 sm:mx-0" data-i18n="results.rangeSub"></p>
+          </div>
+        </div>
+
+        <div
+          id="results-kit-card"
+          class="relative overflow-hidden rounded-[1.65rem] border border-slate-200/90 bg-gradient-to-b from-slate-50/90 to-white p-6 shadow-calm ring-1 ring-slate-100/80 opacity-0-start animate-fade-up stagger-2 animate-fill-mode-forwards sm:p-8"
+        >
+          <div id="results-kit-locked" class="relative space-y-8">
+            <header class="mx-auto max-w-2xl space-y-2 text-center">
+              <p
+                class="text-[11px] font-bold uppercase tracking-widest text-brand-800/90"
+                data-i18n="results.nextStepsEyebrow"
+              ></p>
+              <h2
+                class="text-balance text-xl font-extrabold tracking-tight text-slate-900 sm:text-2xl"
+                data-i18n="results.nextStepsTitle"
+              ></h2>
+              <p class="text-sm leading-relaxed text-slate-600" data-i18n="results.nextStepsSub"></p>
+            </header>
+
+            <div
+              id="results-high-savings-nudge"
+              class="hidden rounded-2xl border border-emerald-200/90 bg-gradient-to-r from-emerald-50 to-teal-50/80 px-4 py-3.5 text-center shadow-sm ring-1 ring-emerald-100/80"
+              role="status"
+            >
+              <p class="text-sm font-semibold leading-snug text-emerald-950" data-i18n="results.highSavingsNudge"></p>
+            </div>
+
+            <div class="grid gap-5 lg:grid-cols-2 lg:gap-6">
+              <div
+                class="flex flex-col rounded-2xl border border-slate-200/90 bg-white p-6 shadow-sm ring-1 ring-slate-100/80"
+              >
+                <p class="text-xs font-bold uppercase tracking-wide text-slate-500" data-i18n="results.pathDiyBadge"></p>
+                <h3 class="mt-2 text-lg font-bold text-slate-900" data-i18n="results.pathDiyTitle"></h3>
+                <p class="mt-3 flex-1 text-sm leading-relaxed text-slate-600" data-i18n="results.pathDiyBody"></p>
+                <p class="mt-4 text-xs leading-relaxed text-slate-500" data-i18n="results.pathDiyNote"></p>
+              </div>
+
+              <div
+                id="results-pro-column"
+                class="relative flex flex-col overflow-hidden rounded-2xl border-2 border-brand-200/90 bg-gradient-to-br from-brand-50/95 via-white to-trust-50/50 p-6 shadow-premium ring-1 ring-brand-100/60 transition-[box-shadow,transform] duration-300 sm:p-7"
+              >
+                <div
+                  class="pointer-events-none absolute -end-8 -top-8 h-28 w-28 rounded-full bg-brand-400/20 blur-2xl"
+                  aria-hidden="true"
+                ></div>
+                <p class="relative text-xs font-bold uppercase tracking-wide text-brand-800" data-i18n="results.pathProBadge"></p>
+                <h3 class="relative mt-1 text-lg font-extrabold tracking-tight text-slate-900 sm:text-xl" data-i18n="results.pathProTitle"></h3>
+                <p
+                  class="relative mt-2 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 px-3.5 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-md ring-2 ring-white/30"
+                  data-i18n="results.proPriceBadge"
+                ></p>
+                <p class="relative mt-3 text-sm leading-relaxed text-slate-700" data-i18n="results.pathProBody"></p>
+
+                <figure class="relative mt-4 overflow-hidden rounded-xl border border-brand-100 bg-white shadow-inner">
+                  <img
+                    src="/assets/previews/pro-form-preview.svg"
+                    alt=""
+                    class="h-auto w-full object-cover object-top"
+                    width="360"
+                    height="220"
+                    loading="lazy"
+                  />
+                  <figcaption
+                    class="border-t border-slate-100 bg-slate-50 px-3 py-2 text-center text-[11px] font-medium text-slate-600"
+                    data-i18n="results.proPreviewCaption"
+                  ></figcaption>
+                </figure>
+
+                <ul class="relative mt-4 space-y-2 text-sm font-medium leading-snug text-slate-800">
+                  <li class="flex gap-2.5">
+                    <span class="shrink-0 font-bold text-brand-600" aria-hidden="true">✓</span>
+                    <span data-i18n="results.proBenefit1"></span>
+                  </li>
+                  <li class="flex gap-2.5">
+                    <span class="shrink-0 font-bold text-brand-600" aria-hidden="true">✓</span>
+                    <span data-i18n="results.proBenefit2"></span>
+                  </li>
+                  <li class="flex gap-2.5">
+                    <span class="shrink-0 font-bold text-brand-600" aria-hidden="true">✓</span>
+                    <span data-i18n="results.proBenefit3"></span>
+                  </li>
+                </ul>
+
+                <p
+                  class="relative mt-3 rounded-lg border border-brand-100/90 bg-white/95 px-3 py-2.5 text-xs font-semibold leading-snug text-brand-900"
+                  data-i18n="results.proValueBlurb"
+                ></p>
+                <p class="relative mt-2 text-[11px] leading-relaxed text-slate-600" data-i18n="results.proGuarantee500"></p>
+
+                <div class="relative mt-4 rounded-xl border border-slate-200/80 bg-white/85 p-3.5">
+                  <p class="text-[10px] font-bold uppercase tracking-wide text-slate-500" data-i18n="results.miniTestimonialsTitle"></p>
+                  <p class="mt-2 text-xs leading-relaxed text-slate-700" data-i18n="results.miniQuote1"></p>
+                  <p class="mt-1 text-[10px] font-semibold text-slate-500" data-i18n="results.miniQuote1By"></p>
+                  <p class="mt-3 text-xs leading-relaxed text-slate-700" data-i18n="results.miniQuote2"></p>
+                  <p class="mt-1 text-[10px] font-semibold text-slate-500" data-i18n="results.miniQuote2By"></p>
+                  <p class="mt-2 text-[10px] font-medium uppercase tracking-wide text-slate-400" data-i18n="results.miniTestimonialsDisclaimer"></p>
+                </div>
+
+                <a
+                  id="results-btn-checkout"
+                  href="/checkout.html"
+                  class="group relative mt-5 inline-flex w-full min-h-[52px] items-center justify-center gap-2 overflow-hidden rounded-2xl bg-gradient-to-r from-forest-600 via-brand-600 to-brand-500 px-6 py-3.5 text-base font-bold text-white shadow-glow transition hover:brightness-[1.06] active:scale-[0.99] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2"
+                >
+                  <span class="absolute inset-0 bg-gradient-to-t from-black/15 to-transparent opacity-0 transition group-hover:opacity-100" aria-hidden="true"></span>
+                  <svg
+                    class="relative h-5 w-5 shrink-0 rtl:rotate-180"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2.2"
+                    aria-hidden="true"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                  <span id="results-btn-checkout-label" class="relative"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div id="results-kit-unlocked" class="hidden space-y-5 p-1">
+            <p class="text-[11px] font-bold uppercase tracking-wide text-forest-800" data-i18n="thankYou.badge"></p>
+            <div>
+              <h3 id="results-kit-title-open" class="text-lg font-bold tracking-tight text-slate-900"></h3>
+              <p id="results-kit-sub-open" class="mt-2 text-sm leading-relaxed text-slate-600"></p>
+            </div>
+            <div class="grid gap-3 sm:grid-cols-2">
+              <a
+                id="results-link-pdf"
+                href="#"
+                class="flex min-h-[52px] items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-700 to-brand-600 px-5 py-4 text-center text-sm font-semibold text-white shadow-md transition hover:brightness-[1.03]"
+              ></a>
+              <a
+                id="results-link-zip"
+                href="#"
+                class="flex min-h-[52px] items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-5 py-4 text-center text-sm font-semibold text-slate-800 shadow-sm transition hover:border-slate-300 hover:bg-slate-50"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2" aria-live="polite">
+          <div
+            class="rounded-2xl border border-rose-200/90 bg-gradient-to-b from-rose-50 to-white p-5 shadow-sm ring-1 ring-rose-100/80 sm:p-6"
+            role="alert"
+          >
+            <div class="flex items-start gap-3">
+              <span
+                class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-rose-100 text-lg font-bold text-rose-700"
+                aria-hidden="true"
+                >!</span
+              >
+              <div>
+                <p class="text-sm font-bold leading-snug text-rose-950" data-i18n="results.redAlert1Title"></p>
+                <p class="mt-3 whitespace-pre-line text-xs font-medium leading-relaxed text-rose-900/95 sm:text-sm" data-i18n="results.redAlert1Body"></p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="rounded-2xl border border-rose-200/90 bg-gradient-to-b from-rose-50/95 to-rose-50/40 p-5 shadow-sm ring-1 ring-rose-100/80 sm:p-6"
+            role="alert"
+          >
+            <div class="flex items-start gap-3">
+              <span
+                class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-rose-200/80 text-lg font-bold text-rose-800"
+                aria-hidden="true"
+                >i</span
+              >
+              <div>
+                <p class="text-sm font-bold leading-snug text-rose-950" data-i18n="results.redAlert2Title"></p>
+                <p class="mt-3 whitespace-pre-line text-xs font-medium leading-relaxed text-rose-900/95 sm:text-sm" data-i18n="results.redAlert2Body"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <details
+          class="rounded-2xl border border-slate-200/90 bg-white/90 p-5 shadow-calm ring-1 ring-slate-100 opacity-0-start animate-fade-up stagger-1 animate-fill-mode-forwards"
+        >
+          <summary class="cursor-pointer text-sm font-semibold text-slate-900" data-i18n="legal.fullDisclaimerDetailsSummary"></summary>
+          <div
+            id="results-legal-full-body"
+            class="mt-4 max-h-[min(32rem,55vh)] overflow-y-auto border-t border-slate-200/80 pt-4"
+          ></div>
+          <p class="mt-3 text-xs leading-relaxed text-slate-600">
+            <a
+              href="/disclaimers.html"
+              class="font-medium text-brand-700 underline decoration-brand-300 underline-offset-2 hover:text-brand-800"
+              data-i18n="legal.standaloneLinkText"
+            ></a>
+          </p>
+        </details>
+
+        <div class="grid gap-5 opacity-0-start animate-fade-up stagger-3 animate-fill-mode-forwards lg:grid-cols-5">
+          <div class="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-calm lg:col-span-3">
+            <h3 class="text-sm font-bold uppercase tracking-wide text-slate-800" data-i18n="results.breakdownTitle"></h3>
+            <ul id="results-breakdown" class="mt-5 space-y-4"></ul>
+          </div>
+          <div
+            class="rounded-2xl border border-amber-200/70 bg-gradient-to-br from-amber-50/90 to-white p-5 text-sm leading-relaxed text-amber-950/95 shadow-sm lg:col-span-2"
+          >
+            <p id="results-disclaimer-api" class="whitespace-pre-line text-xs font-medium sm:text-sm"></p>
+          </div>
+        </div>
+
+        <div
+          class="rounded-2xl border border-slate-200/80 bg-white/90 p-5 shadow-calm opacity-0-start animate-fade-up stagger-4 animate-fill-mode-forwards"
+        >
+          <p class="text-xs font-bold uppercase tracking-wide text-slate-700" data-i18n="results.shareTitle"></p>
+          <p class="mt-1 text-xs text-slate-500" data-i18n="results.shareHelper"></p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <button
+              type="button"
+              id="btn-share-wa"
+              class="inline-flex min-h-[48px] min-w-[140px] flex-1 items-center justify-center gap-2 rounded-xl bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-md transition hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 sm:flex-none"
+            >
+              <svg class="h-5 w-5 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.3l-.361.214-3.741-1.01 1 3.645-.239.382a9.86 9.86 0 0010.086 4.023h.003a9.867 9.867 0 001.403-.365 9.7 9.7 0 00.49-.22c.125-.062.243-.132.365-.196a9.87 9.87 0 00-3.82-7.573m.004 17.403c-5.429 0-9.847-4.417-9.847-9.847 0-1.76.46-3.48 1.335-4.99L2.5 2.5l4.72 1.27a9.81 9.81 0 004.75-1.22 9.86 9.86 0 014.23 8.15c0 5.43-4.418 9.848-9.848 9.848"
+                />
+              </svg>
+              <span data-i18n="results.shareWhatsapp"></span>
+            </button>
+            <button
+              type="button"
+              id="btn-share-fb"
+              class="inline-flex min-h-[48px] min-w-[140px] flex-1 items-center justify-center gap-2 rounded-xl bg-[#1877F2] px-4 py-3 text-sm font-semibold text-white shadow-md transition hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 sm:flex-none"
+            >
+              <svg class="h-5 w-5 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+              <span data-i18n="results.shareFacebook"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-3 opacity-0-start animate-fade-up stagger-5 animate-fill-mode-forwards sm:flex-row">
+          <button
+            type="button"
+            id="btn-restart-1"
+            class="inline-flex min-h-[48px] w-full items-center justify-center rounded-2xl border border-slate-200 bg-white px-6 py-3.5 text-base font-semibold text-slate-800 shadow-sm transition hover:bg-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-300 sm:w-auto"
+            data-i18n="results.ctaAgain"
+          ></button>
+        </div>
+      </section>
+
+      <!-- Success -->
+      <section id="view-success" class="hidden space-y-8">
+        <div class="text-center">
+          <div
+            class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-forest-100 to-forest-50 text-forest-700 shadow-calm ring-2 ring-forest-200/80 animate-ring-pulse"
+          >
+            <svg
+              class="h-10 w-10 animate-check-pop"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+              aria-hidden="true"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <p class="mt-5 text-xs font-bold uppercase tracking-widest text-forest-800" data-i18n="thankYou.badge"></p>
+          <h2 class="mt-2 text-3xl font-bold tracking-tight text-slate-900" data-i18n="success.title"></h2>
+          <p class="mx-auto mt-3 max-w-md text-sm leading-relaxed text-slate-600" data-i18n="success.sub"></p>
+        </div>
+
+        <details class="rounded-2xl border border-slate-200/90 bg-white/95 p-5 shadow-calm">
+          <summary class="cursor-pointer text-sm font-semibold text-slate-900" data-i18n="legal.fullDisclaimerDetailsSummary"></summary>
+          <div id="success-legal-full-body" class="mt-4 max-h-[min(32rem,55vh)] overflow-y-auto border-t border-slate-200/80 pt-4"></div>
+          <p class="mt-3 text-xs leading-relaxed text-slate-600">
+            <a
+              href="/disclaimers.html"
+              class="font-medium text-brand-700 underline decoration-brand-300 underline-offset-2 hover:text-brand-800"
+              data-i18n="legal.standaloneLinkText"
+            ></a>
+          </p>
+        </details>
+
+        <div class="grid gap-3 sm:grid-cols-2">
+          <a
+            id="link-pdf"
+            class="flex min-h-[52px] items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-700 to-brand-600 px-5 py-4 text-center text-sm font-semibold text-white shadow-md transition hover:brightness-[1.03]"
+            href="#"
+            data-i18n="success.downloadPdf"
+          ></a>
+          <a
+            id="link-zip"
+            class="flex min-h-[52px] items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-5 py-4 text-center text-sm font-semibold text-slate-800 shadow-sm transition hover:bg-slate-50"
+            href="#"
+            data-i18n="success.downloadZip"
+          ></a>
+        </div>
+
+        <div id="thankyou-checklist-wrap" class="hidden rounded-2xl border border-slate-200/80 bg-white p-6 shadow-calm">
+          <p class="text-sm font-bold text-slate-900" data-i18n="thankYou.premiumChecklist"></p>
+          <ul id="thankyou-checklist" class="mt-4 space-y-2 text-sm text-slate-700"></ul>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200/80 bg-slate-50/80 p-6 shadow-inner">
+          <p class="text-sm font-bold text-slate-900" data-i18n="success.checklistTitle"></p>
+          <ul class="mt-4 space-y-2.5 text-sm leading-relaxed text-slate-700">
+            <li class="flex gap-2"><span class="text-brand-600">•</span><span data-i18n="success.c1"></span></li>
+            <li class="flex gap-2"><span class="text-brand-600">•</span><span data-i18n="success.c2"></span></li>
+            <li class="flex gap-2"><span class="text-brand-600">•</span><span data-i18n="success.c3"></span></li>
+            <li class="flex gap-2"><span class="text-brand-600">•</span><span data-i18n="success.c4"></span></li>
+          </ul>
+        </div>
+
+        <button
+          type="button"
+          id="btn-restart-2"
+          class="w-full rounded-xl border border-slate-200 bg-white py-3.5 text-sm font-semibold text-slate-800 shadow-sm transition hover:bg-slate-50 sm:w-auto sm:px-10"
+          data-i18n="success.again"
+        ></button>
+      </section>
+    </main>
+
+    <footer class="mt-auto border-t border-slate-200/80 bg-white/85 py-12 backdrop-blur-md">
+      <div class="mx-auto max-w-5xl px-4 text-center text-sm leading-relaxed text-slate-600 sm:px-6 sm:text-start">
+        <p data-i18n="disclaimer.footer"></p>
+        <p class="mt-4 text-xs font-bold uppercase tracking-wide text-slate-500" data-i18n="footer.legalHeading"></p>
+        <nav class="mt-2 flex flex-wrap justify-center gap-x-5 gap-y-1 text-xs sm:justify-start" aria-label="Legal">
+          <a
+            href="/disclaimers.html"
+            class="font-medium text-trust-600 underline decoration-trust-200 underline-offset-2 hover:text-trust-700"
+            data-i18n="footer.disclaimers"
+          ></a>
+          <a
+            href="/privacy.html"
+            class="font-medium text-trust-600 underline decoration-trust-200 underline-offset-2 hover:text-trust-700"
+            data-i18n="footer.privacy"
+          ></a>
+          <a
+            href="/terms.html"
+            class="font-medium text-trust-600 underline decoration-trust-200 underline-offset-2 hover:text-trust-700"
+            data-i18n="footer.terms"
+          ></a>
+        </nav>
+        <p class="mt-4 text-xs text-slate-600">
+          <span data-i18n="meta.contact"></span>:
+          <a href="mailto:bosstanzon@gmail.com" class="font-medium text-brand-700 underline decoration-brand-300 underline-offset-2 hover:text-brand-800"
+            >bosstanzon@gmail.com</a
+          >
+        </p>
+        <p class="mt-5 text-xs text-slate-500">
+          © <span id="year"></span>
+          <span data-i18n="meta.footerRights"></span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/js/i18n.js" defer></script>
+    <script src="/js/legal.js" defer></script>
+    <script src="/js/app.js" defer></script>
+  </body>
+</html>
