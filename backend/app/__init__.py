@@ -1,1 +1,0 @@
-# ArnonaCut backend application package.
